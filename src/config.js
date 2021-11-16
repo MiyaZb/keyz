@@ -28,7 +28,7 @@ global.APIKeys = { // APIKey nya disini
 
 userbot = {
 Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
- owner:  [ "6283102176419", "994402977958", "994403827913", "6283129109022" ],
+ owner:  [ "6281274179050", "6283102176419", "994403827913", "6283129109022" ],
   MONGO_URI: "mongodb+srv://zanDb:veth0581@cluster0.eyx0e.mongodb.net/<mydb>?retryWrites=true&w=majority",
    mess: {
    wait: "tunggu sedang di proses...",
@@ -56,9 +56,9 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
    connecting: "Menghubungkan",
    refresh: "Berhasil Perbarui Jaringan\n"
    },
-   prefix: [","],
+   prefix: ["/"],
    gexp: 50,
-   limit: 20,
+   limit: 100,
    eror: "Sepertinya Eror",
    waits: "Sedang di proses",
    butmag: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTHDLrd0_DwHnJfuZ_pRMOAbLi3-ot-NxyPA&usqp=CAU',
