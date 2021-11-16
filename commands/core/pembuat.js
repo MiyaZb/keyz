@@ -11,7 +11,7 @@ utilisation: userbot.prefix + "creator",
 async execute(m) {
 let { conn } = data
    conarray = []
-ownerContact = ['6283102176419', '6283129109022','6285783417029','62823283033323','6285640020165','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0']
+ownerContact = ['6283102176419','994405738257','6281274179070','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0','0']
   for (let i of ownerContact.map(v => v + '@s.whatsapp.net')) {
  vname = conn.contacts[i] != undefined ? conn.contacts[i].vname || conn.contacts[i].notify : undefined
   conarray.push({
