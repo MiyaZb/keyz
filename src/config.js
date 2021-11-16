@@ -31,25 +31,25 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
  owner:  [ "6281274179050", "6281274179050", "6281274179050", "6281274179050" ],
   MONGO_URI: "mongodb+srv://zanDb:veth0581@cluster0.eyx0e.mongodb.net/<mydb>?retryWrites=true&w=majority",
    mess: {
-   wait: "tunggu sedang di proses...",
+   wait: "Tar bang",
    api: "Maaf terjadi kesalahan", 
-   success: "Berhasil",
-   SudahAktif: "Perintah Tersebut Sudah Diaktifkan Sebelumnya.",
-   SudahNonaktif: "Perintah Tersebut Sudah Dinonaktifkan Sebelumnya.",
-   KhususGrup: "Perintah ini hanya bisa digunakan di Grup",
-   KhususPribadi: "Perintah ini hanya bisa digunakan di private message",
-   GrupAdmin: "Perintah ini hanya bisa digunakan oleh Admin Grup",
-   BotAdmin: "Bot Harus menjadi admin",
-   KhususOwner: "Perintah ini hanya dapat digunakan oleh owner bot",
-   KhususPremium: "Perintah ini khusus member premium"
+   success: "nice",
+   SudahAktif: "Lah kan udah aktif bang",
+   SudahNonaktif: "Kan udah nonaktif bang",
+   KhususGrup: "Cuma bisa di grup bang",
+   KhususPribadi: "Cuma bisa di private messege",
+   GrupAdmin: "Lu kan bukan admin awoaowakwoak",
+   BotAdmin: "Gw mau aja, cuma gw bukan admin",
+   KhususOwner: "cuma owner gw aja yg bisa pakai",
+   KhususPremium: "lu kan gak prem"
    },
    error: {
-   Iv: "Link yang kamu berikan tidak valid",
+   Iv: "Link ny salah gak?",
    tombol: "Silahkam Masukkan prameter on/off",
    forget: "Silahkan Masukkan Teks Anda."
    },
    simple: {
-   expiredQr: "[!] Scan Kode QR Diatas, Expired dalam 30 detik",
+   expiredQr: "[!] Scan Kode QR Diatas, Expired dalam 20 detik",
    credentials: "credentials updated!",
    opendocs: "open docs is complete!", 
    readBaileys: "berhasil masuk ke dalam baileys",
@@ -60,7 +60,7 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
    gexp: 50,
    limit: 100,
    eror: "Sepertinya Eror",
-   waits: "Sedang di proses",
+   waits: "Tar dulu bang",
    butmag: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRTHDLrd0_DwHnJfuZ_pRMOAbLi3-ot-NxyPA&usqp=CAU',
    packname: "Keyz-botz",
    author: 'oreki',
@@ -69,8 +69,8 @@ Prem: JSON.parse(fs.readFileSync('./db/premium.json')),
     group: "only group",
     owner: "owner only pack",
     jadibot: "jadibot only",
-    botadmin: "bot harus menjadi admin",
-    nsfw: "FITUR BELUM DIAKTIFKAN!"
+    botadmin: "gw bukan admin njir",
+    nsfw: "fitur ny blom di aktifkan"
     }
 }
 
